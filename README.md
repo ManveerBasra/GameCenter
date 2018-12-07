@@ -1,4 +1,4 @@
-# GameCentre Group 0571 
+# GameCentre
 
 A Game Centre where a user can sign in to save and play a collection of mini games.
 
