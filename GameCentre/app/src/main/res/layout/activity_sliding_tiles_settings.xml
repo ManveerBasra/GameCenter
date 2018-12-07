@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".slidingTiles.ui.SlidingTilesSettingsActivity">
+
+    <LinearLayout
+        android:id="@+id/undo_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="36dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/set_undo_limit"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/undo_limit_radios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/undo_limit_set_unlimited"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set_undo_unlimited" />
+
+            <RadioButton
+                android:id="@+id/undo_limit_set_numeric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/set_undo_numeric" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/undo_limit_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="@string/undo_limit_hint"
+            android:inputType="number"
+            android:maxLength="3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/choose_image_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/undo_settings"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/choose_image"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/sliding_tiles_image_radios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sliding_tiles_default_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/default_image" />
+
+            <RadioButton
+                android:id="@+id/sliding_tiles_image_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/image_one" />
+
+            <RadioButton
+                android:id="@+id/sliding_tiles_image_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/image_two" />
+
+            <RadioButton
+                android:id="@+id/sliding_tiles_image_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/image_three" />
+
+            <RadioButton
+                android:id="@+id/sliding_tiles_image_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/from_gallery" />
+
+            <RadioButton
+                android:id="@+id/sliding_tiles_url_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/url" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/sliding_tiles_image_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_image_url"
+            android:inputType="textUri" />
+
+        <Button
+            android:id="@+id/sliding_tiles_get_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="getImageButtonOnClick"
+            android:text="@string/get_image" />
+
+        <ImageView
+            android:id="@+id/sliding_tiles_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image_from_url"
+            app:srcCompat="?android:attr/windowBackground" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sliding_tiles_save_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:onClick="saveButtonOnClick"
+        android:text="@string/save" />
+</RelativeLayout>

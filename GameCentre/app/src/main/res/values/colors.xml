@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1f43d2</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="tabIndicator">#4fde99</color>
+    <color name="scoreboardBackground">#d1f4fa</color>
+    <color name="colorHeaderText">#FFFFFF</color>
+    <color name="colorHeaderBackground">#FF31CEF9</color>
+    <color name="colorGameHeaderBackground">#FF1C1D33</color>
+</resources>

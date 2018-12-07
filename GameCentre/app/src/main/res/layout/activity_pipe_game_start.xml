@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/new_game_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/create_new_game"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/enter_board_size" />
+
+    <Button
+        android:id="@+id/new_game_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="newGameButtonOnClick"
+        android:text="@string/play_game" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/save_load_game"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/load_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:onClick="loadButtonOnClick"
+        android:text="@string/load_saved_game" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:onClick="saveButtonOnClick"
+        android:text="@string/save_game" />
+
+</LinearLayout>

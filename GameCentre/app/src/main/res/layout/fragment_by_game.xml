@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:backgroundTint="@color/scoreboardBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGameHeaderBackground"
+        android:padding="12dp"
+        android:text="@string/sliding_tiles_game"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <ListView
+        android:id="@+id/list_sliding_tiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:backgroundTint="@color/scoreboardBackground" />
+
+    <TextView
+        android:id="@+id/by_game_sliding_tiles_empty_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="center_horizontal"
+        android:text="@string/no_scores_to_display" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGameHeaderBackground"
+        android:padding="12dp"
+        android:text="@string/pipes_game"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <ListView
+        android:id="@+id/list_pipe_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:backgroundTint="@color/scoreboardBackground" />
+
+    <TextView
+        android:id="@+id/by_game_pipe_game_empty_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="center_horizontal"
+        android:text="@string/no_scores_to_display" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGameHeaderBackground"
+        android:padding="12dp"
+        android:text="@string/tictactoe_game"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <ListView
+        android:id="@+id/list_tictactoe_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:backgroundTint="@color/scoreboardBackground" />
+
+    <TextView
+        android:id="@+id/by_game_tictactoe_game_empty_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:gravity="center_horizontal"
+        android:text="@string/no_scores_to_display" />
+</LinearLayout>

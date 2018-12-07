@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">GameCentre</string>
+    <string name="sliding_tiles_centre">Sliding Tiles Centre</string>
+    <string name="sliding_tiles_game">Sliding Tiles</string>
+
+    <string name="pipes_centre">Pipes Centre</string>
+    <string name="pipes_game">Pipes</string>
+
+    <string name="tictactoe_centre">Tic Tac Toe Centre</string>
+    <string name="tictactoe_game">Tic Tac Toe</string>
+
+    <string name="sign_in_to_play">Sign In to Play</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="reenter_password">Re-Enter Password</string>
+    <string name="is_required">%s is required</string>
+    <string name="sign_in_incorrect">Username and/or password is incorrect</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="username_exists">Username already exists</string>
+    <string name="sign_up_successful">Signed Up!</string>
+    <string name="passwords_must_match">Passwords must match</string>
+
+    <string name="by_user_fragment_header">By User</string>
+    <string name="by_game_fragment_header">By Game</string>
+    <string name="fragment_username_header">Username</string>
+    <string name="fragment_score_header">Score</string>
+    <string name="no_scores_to_display">There are no scores to display. Try winning a game!</string>
+
+    <string name="scoreboard">Scoreboard</string>
+    <string name="view_scoreboard">View Scoreboard</string>
+    <string name="score">Score</string>
+    <string name="choose_game">Choose a Game to Play</string>
+    <string name="play">Play</string>
+    <string-array name="games_array">
+        <item>@string/sliding_tiles_game</item>
+        <item>@string/pipes_game</item>
+        <item>@string/tictactoe_game</item>
+    </string-array>
+
+    <string-array name="board_array">
+        <item>@string/new_3x3</item>
+        <item>@string/new_4x4</item>
+        <item>@string/new_5x5</item>
+    </string-array>
+
+    <string name="invalid_tap">Invalid Tap</string>
+    <string name="you_win">YOU WIN!</string>
+    <string name="you_lose">YOU LOSE!</string>
+    <string name="you_tied">YOU TIED!</string>
+    <string name="new_highscore">NEW HIGHSCORE!</string>
+    <string name="game_over">THE GAME IS OVER!</string>
+
+    <string name="create_new_game">Create a New Game</string>
+    <string name="save_load_game">Save/Load a game</string>
+    <string name="new_3x3">New 3X3 Game</string>
+    <string name="new_4x4">New 4X4 Game</string>
+    <string name="new_5x5">New 5X5 Game</string>
+
+    <string name="play_game">Play</string>
+    <string name="load_saved_game">Load Saved Game</string>
+    <string name="save_game">Save Game</string>
+
+    <string name="small_board">Board must be at least 5X5</string>
+    <string name="number_input">Must enter a number</string>
+
+    <string name="settings">Settings</string>
+    <string name="settings_saved">Settings Saved</string>
+
+    <string name="set_undo_limit">Set Undo Limit</string>
+    <string name="set_undo_unlimited">Unlimited Undos</string>
+    <string name="set_undo_numeric">Numeric Undo Limit</string>
+    <string name="undo_limit_hint">Enter Numeric Limit</string>
+
+    <string name="enter_board_size">Enter a Board Size</string>
+    <string name="choose_image">Choose Tile Background Image</string>
+    <string name="default_image">Default (numbers)</string>
+    <string name="image_one">Pizza</string>
+    <string name="image_two">Potato</string>
+    <string name="image_three">Cake</string>
+    <string name="from_gallery">From Gallery</string>
+    <string name="no_image_chosen">No Image Chosen</string>
+    <string name="url">URL (Must be full URL (including http(s)); Click Get Image to ensure
+        the image loads)</string>
+    <string name="enter_image_url">Enter Image URL</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="image_loaded">Image Loaded</string>
+    <string name="image_from_url">Image from URL</string>
+    <string name="get_image">Get Image</string>
+
+    <string name="save">Save</string>
+
+    <string name="undo">Undo</string>
+    <string name="cannot_undo">Can\'t Undo Anymore!</string>
+</resources>

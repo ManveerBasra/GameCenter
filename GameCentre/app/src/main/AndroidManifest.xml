@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.group_0571.gamecentre">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.GameCentreActivity" />
+        <activity android:name=".scoreboard.ui.ScoreboardActivity" />
+        <activity
+            android:name=".ui.SignInActivity"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".ui.SignUpActivity"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".slidingTiles.ui.SlidingTilesStartActivity"
+            android:label="@string/sliding_tiles_centre" />
+        <activity
+            android:name=".slidingTiles.ui.SlidingTilesGameActivity"
+            android:label="@string/sliding_tiles_game" />
+        <activity
+            android:name=".slidingTiles.ui.SlidingTilesSettingsActivity"
+            android:parentActivityName=".slidingTiles.ui.SlidingTilesStartActivity" />
+        <activity
+            android:name=".ticTacToe.ui.TicTacToeStartActivity"
+            android:label="@string/tictactoe_centre" />
+        <activity
+            android:name=".ticTacToe.ui.TicTacToeGameActivity"
+            android:label="@string/tictactoe_game" />
+        <activity
+            android:name=".pipeGame.ui.PipeGameStartActivity"
+            android:label="Pipes Setup" />
+        <activity
+            android:name=".pipeGame.ui.PipeGameActivity"
+            android:label="Pipes" />
+    </application>
+
+</manifest>
