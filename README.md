@@ -4,7 +4,7 @@ A Game Centre where a user can sign in to save and play a collection of mini gam
 
 ## Setup Instructions
 
-1. In the command line, clone the repository using `git clone https://markus.teach.cs.toronto.edu/git/csc207-2018-09-reg/group_0571`
+1. In the command line, clone the repository using `git clone https://github.com/ManveerBasra/GameCenter.git`
 2. Open Android Studio
 3. Select "Open an existing Android Studio project"
 4. Navigate to the folder where the repository was cloned and inside that folder select Phase1\Gamecentre
@@ -14,7 +14,7 @@ A Game Centre where a user can sign in to save and play a collection of mini gam
 ## Usage Instructions
 
 1. Create an account and sign in.
-2. Choose a game to play (Sliding Tiles is the only option right now)
+2. Choose a game to play (We will use Sliding Tiles as an example)
 3. You are now at Sliding Tiles Centre and you have a couple options
    + Settings are at the top right of the activity
        + Default undo limit is 3, you can set it to values between 0 - 999, or set it to unlimited
@@ -63,3 +63,22 @@ you selected
 + You will win by having the tiles in proper order:
   + Increasing order for numbered tiles
   + Matched to the original image for tiles with background images
+ 
+### Tic Tac Toe
+
+This game works as a usual Tic Tac Toe game, you will need 2 people to properly play the game.
+
++ When you start the game, you will see a screen of empty tiles
++ You can tap any tile and it will update with a user's "symbol", turns are switched after every move.
+  + Player 1 has symbol "X"
+  + Player 2 has symbol "O"
++ A player wins when they have a full line of their symbols, so
+  + A vertical line of their symbols
+  + A horizontal line of their symbols
+  + A diagonal line of their symbols
+
+### Pipes
+
++ When you start the game, you will see a bunch of tiles, the top and botton row has red, and the middle has numerous moveable tiles
++ You can tap on any green tile to rotate it
++ The objective of the game is to connect some red pipe at the top with a red pipe at the bottom using the green pipes
