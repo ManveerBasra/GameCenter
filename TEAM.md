@@ -1,12 +1,12 @@
-# GameCentre Group 0571
+# GameCentre
 
-## Contact Information
+## Contributors
 
-+ Manveer Basra, m13basra@gmail.com, 778-522-8165
-+ Kirby Chin (has usernames kabicin and Kirby Chin in git log), kirby.chin@mail.utoronto.ca, 647-972-4299
-+ Salman Mohamad, salmanm725@gmail.com, 647-718-7375
-+ Ryan Denniston, ryan.denniston@mail.utoronto.ca, 226-984-1669
-+ Maxwell Garrett, maxwell.garrett@mail.utoronto.ca, 647-787-8156
++ Manveer Basra
++ Kirby Chin
++ Salman Mohamad
++ Ryan Denniston
++ Maxwell Garrett
 
 ## Communication Tools
 
