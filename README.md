@@ -2,6 +2,12 @@
 
 A Game Centre where a user can sign in to save and play a collection of mini games.
 
+## Demo Images
+
+Welcome Screen                        |  Game Start Center                  | Sliding Tiles Game
+:------------------------------------:|:-----------------------------------:|:-----------------------------------:
+![](/demo_images/welcome_screen.jpg)  |  ![](/demo_images/start_centre.jpg) | ![](/demo_images/sliding_tiles.jpg)
+
 ## Setup Instructions
 
 1. In the command line, clone the repository using `git clone https://github.com/ManveerBasra/GameCenter.git`
