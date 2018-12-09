@@ -14,7 +14,7 @@ Welcome Screen                        |  Game Start Center                  | Sl
 2. Open Android Studio
 3. Select "Open an existing Android Studio project"
 4. Navigate to the folder where the repository was cloned and inside that folder select Phase1\Gamecentre
-    - When the correct folder has been selected the path should be: location_where_project_was_cloned\group_0571\Phase1\GameCentre
+    - When the correct folder has been selected the path should be: location_where_project_was_cloned\Phase1\GameCentre
 5. Click OK and wait until Gradle sync is complete
 
 ## Usage Instructions
