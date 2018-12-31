@@ -3,7 +3,7 @@
 A Game Centre where a user can sign in to save and play a collection of mini games.
 
 
-Built by: [Manveer Basra](https://github.com/ManveerBasra), [Kirby Chin](https://github.com/kabicin), [Salman Shahzad](https://github.com/salmanshahzad), Max Garrett, Ryan Denniston
+Built by: [Manveer Basra](https://github.com/ManveerBasra), [Kirby Chin](https://github.com/kabicin), [Salman Shahzad](https://github.com/salmanshahzad), [Max Garrett](https://github.com/maxwell-garrett), Ryan Denniston
 
 ## Demo Images
 
